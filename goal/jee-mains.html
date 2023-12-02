@@ -14,7 +14,7 @@
     <!-- 
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
 
     <!-- 
     - google font link
@@ -24,6 +24,13 @@
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
 
@@ -37,7 +44,7 @@
         <div class="overlay" data-overlay></div>
 
         <a href="#" class="logo">
-          <!-- <img src="./assets/images/logo.svg" alt="Eduland logo"> -->
+          <!-- <img src="../assets/images/logo.svg" alt="Eduland logo"> -->
           EduTrekker
         </a>
 
@@ -51,17 +58,17 @@
           </button>
 
           <a href="#" class="logo">
-            <!-- <img src="./assets/images/logo.svg" alt="Eduland logo"> -->
+            <!-- <img src="../assets/images/logo.svg" alt="Eduland logo"> -->
             EduTrekker
           </a>
 
           <ul class="navbar-list">
             <li>
-              <a href="#" class="navbar-link">Home</a>
+              <a href="../index.html" class="navbar-link">Home</a>
             </li>
 
             <li>
-              <a href="#" class="navbar-link">About</a>
+              <a href="#about" class="navbar-link">About</a>
             </li>
 
             <li>
@@ -92,20 +99,25 @@
           <div class="container">
             <figure class="hero-banner">
               <img
-                src="./assets/images/hero-banner.png"
+                src="../assets/images/hero-banner.png"
                 alt="A young lady sits, holding a pen and a notebook."
               />
             </figure>
 
             <div class="hero-content">
-              <h1 class="h1 hero-title">Discover Edu Success</h1>
+              <h1 class="h1 hero-title">
+                <span> Crack </span> JEE Mains <span> with EduTrekker </span>
+              </h1>
 
               <p class="section-text">
-                Excel in JEE and NEET: Elevate your academic journey with
-                EduTrekker's expert guidance and personalized support
+                Comprehensive coaching for JEE Mains and Advanced, ensuring top
+                performance.
               </p>
 
-              <button class="btn btn-primary">Discover More</button>
+              <button class="btn btn-primary">
+                <span> View Subscription Plans </span>
+                <ion-icon name="arrow-forward"></ion-icon>
+              </button>
             </div>
           </div>
         </section>
@@ -114,39 +126,97 @@
         - #ABOUT
       -->
 
-        <section class="about">
-          <div class="container">
-            <figure class="about-banner">
-              <img
-                src="./assets/images/about-banner.png"
-                alt="Eduland students"
-                class="about-img"
-              />
-
-              <img
-                src="./assets/images/about-vector.svg"
-                alt="Vector line art"
-                class="vector-line"
-              />
-
-              <button class="play-btn">
-                <ion-icon name="play"></ion-icon>
-              </button>
-            </figure>
-
-            <div class="about-content">
-              <h2 class="h2 about-title">
-                We Help to Create Possibility & Success in Your Career!
-              </h2>
-
-              <p class="section-text">
-                Continually administrate process-centric human capital rather
-                than bleeding-edge methodologies. Distinctively supply accurate
-                methods of empowerment before.
-              </p>
-
-              <button class="btn btn-primary">Get Started Today</button>
+        <section class="about" id="#about">
+          <img
+          src="../assets/images/instructor-vactor-1.svg"
+          alt="Vector line art"
+          class="vector-line"
+        />
+        <h2 class="h2 topic-title">
+          Our Mentorship Includes
+        </h2>
+          <div class="topics">
+            <div class="topic">
+              <div class="topic-icon">
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <div class="about-text">
+                <div class="title">
+                  <h2>Weekly Live Classes</h2>
+                </div>
+                <div class="topic-description">
+                  <p>
+                    Live classes with our expert faculty, ensuring you never
+                    miss a class.
+                  </p>
+                </div>
+              </div>
             </div>
+            <div class="topic">
+              <div class="topic-icon">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="about-text">
+                <div class="title">
+                  <h2>Top Mentors</h2>
+                </div>
+                <div class="topic-description">
+                  <p>
+                    Live classes with our expert faculty, ensuring you never
+                    miss a class.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="topic">
+              <div class="topic-icon">
+                <i class="fa-solid fa-message"></i>
+              </div>
+              <div class="about-text">
+                <div class="title">
+                  <h2>Doubts & solutions</h2>
+                </div>
+                <div class="topic-description">
+                  <p>
+                    Live classes with our expert faculty, ensuring you never
+                    miss a class.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="topic">
+              <div class="topic-icon">
+                <i class="fa-solid fa-message"></i>
+              </div>
+              <div class="about-text">
+                <div class="title">
+                  <h2>Daily Assignment</h2>
+                </div>
+                <div class="topic-description">
+                  <p>
+                    Live classes with our expert faculty, ensuring you never
+                    miss a class.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="topic">
+              <div class="topic-icon">
+                <i class="fa-solid fa-message"></i>
+              </div>
+              <div class="about-text">
+                <div class="title">
+                  <h2>Test Series</h2>
+                </div>
+                <div class="topic-description">
+                  <p>
+                    Live classes with our expert faculty, ensuring you never
+                    miss a class.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </section>
 
@@ -157,92 +227,76 @@
         <section class="departments">
           <div class="container">
             <img
-              src="./assets/images/departmets-vector.svg"
+              src="../assets/images/departmets-vector.svg"
               alt="Vector line art"
               class="vector-line"
             />
+            <h2 class="h2 offering">What we are offering</h2>
 
-            <h2 class="h2 departments-title">Select Your Goal</h2>
-
-            <ul class="departments-list">
-              <li>
-                <div class="departments-card">
-                  <a href="/goal/iit-jee.html" class="card-banner">
-                    <figure>
-                      <img
-                        src="./assets/images/depertment-1.png"
-                        alt="Artificial Intelligence"
-                      />
-                    </figure>
-                  </a>
-
-                  <a href="/goal/iit-jee.html">
-                    <h3 class="h3 card-title">JEE MAINS + ADVANCE</h3>
-                  </a>
-
-                  <p class="card-text">
-                    Comprehensive mentorship for JEE Mains and Advanced,
-                    ensuring top performance
-                  </p>
-
-                  <a href="/goal/iit-jee.html" class="card-link">
-                    <button class="btn btn-primary">Check Details</button>
-                  </a>
-                </div>
-              </li>
-
-              <li>
-                <div class="departments-card">
-                  <a href="/goal/jee-mains.html" class="card-banner">
-                    <figure>
-                      <img
-                        src="./assets/images/depertment-2.png"
-                        alt="Civil Engineering"
-                      />
-                    </figure>
-                  </a>
-
-                  <a href="/goal/jee-mains.html">
-                    <h3 class="h3 card-title">JEE MAINS</h3>
-                  </a>
-
-                  <p class="card-text">
-                    Guided excellence: Elevate your JEE Mains performance with
-                    personalized mentorship and expert coaching.
-                  </p>
-
-                  <a href="/goal/jee-mains.html" class="card-link">
-                    <button class="btn btn-primary">Check Details</button>
-                  </a>
-                </div>
-              </li>
-
-              <li>
-                <div class="departments-card">
-                  <a href="/goal/neet.html" class="card-banner">
-                    <figure>
-                      <img
-                        src="./assets/images/depertment-3.png"
-                        alt="Business Studies"
-                      />
-                    </figure>
-                  </a>
-
-                  <a href="/goal/neet.html">
-                    <h3 class="h3 card-title">NEET</h3>
-                  </a>
-
-                  <p class="card-text">
-                    NEET success starts here: Personalized mentorship for your
-                    medical journey to excellence and achievement.
-                  </p>
-
-                  <a href="/goal/neet.html" class="card-link">
-                    <button class="btn btn-primary">Check Details</button>
-                  </a>
-                </div>
-              </li>
-            </ul>
+            <div class="offerings">
+              <div class="offering">
+                <h2>1. Comprehensive Study Material:</h2>
+                <p>
+                  In-depth, well-structured study materials covering the entire
+                  JEE syllabus. Clear and concise notes for quick revision.
+                </p>
+              </div>
+              <div class="offering">
+                <h2>2. Live Interactive Classes:</h2>
+                <p>
+                  Engaging live sessions with experienced IITian mentors.
+                  Real-time doubt resolution for a better understanding of
+                  concepts.
+                </p>
+              </div>
+              <div class="offering">
+                <h2>3. Personalized Mentorship:</h2>
+                <p>
+                  Assigned personal mentor for individual attention and
+                  guidance. Regular one-on-one sessions to track progress and
+                  address concerns.
+                </p>
+              </div>
+              <div class="offering">
+                <h2>4. Mock Tests and Practice Papers:</h2>
+                <p>
+                  Regular mock tests to simulate the JEE exam environment.
+                  Detailed analysis and feedback to identify strengths and areas
+                  for improvement.
+                </p>
+              </div>
+              <div class="offering">
+                <h2>5. Doubt Resolution Forum:</h2>
+                <p>
+                  Access to a dedicated forum for posting doubts and getting
+                  quick responses. Peer-to-peer learning through collaborative
+                  doubt-solving.
+                </p>
+              </div>
+              <div class="offering">
+                <h2>6. Exam Strategy Workshops:</h2>
+                <p>
+                  Special workshops on effective time management and exam
+                  strategies. Tips and tricks to handle tricky questions and
+                  maximize scores.
+                </p>
+              </div>
+              <div class="offering">
+                <h2>7. Interactive Learning Resources:</h2>
+                <p>
+                  Multimedia resources including videos, animations, and
+                  simulations. Interactive quizzes for a more engaging learning
+                  experience.
+                </p>
+              </div>
+              <div class="offering">
+                <h2>8. Regular Progress Reports:</h2>
+                <p>
+                  Timely feedback on performance and areas needing improvement.
+                  Continuous monitoring to ensure steady progress.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -253,7 +307,7 @@
         <section class="instructor">
           <div class="container">
             <img
-              src="./assets/images/instructor-vactor-1.svg"
+              src="../assets/images/instructor-vactor-1.svg"
               alt="Vector line art"
               class="vector-line"
             />
@@ -271,7 +325,7 @@
                 <div class="instructor-card">
                   <figure class="card-banner">
                     <img
-                      src="./assets/images/instructor-1.png"
+                      src="../assets/images/instructor-1.png"
                       alt="Shaapir Prio"
                     />
                   </figure>
@@ -313,7 +367,10 @@
               <li>
                 <div class="instructor-card">
                   <figure class="card-banner">
-                    <img src="./assets/images/instructor-2.png" alt="Sellina" />
+                    <img
+                      src="../assets/images/instructor-2.png"
+                      alt="Sellina"
+                    />
                   </figure>
 
                   <a href="#">
@@ -354,7 +411,7 @@
                 <div class="instructor-card">
                   <figure class="card-banner">
                     <img
-                      src="./assets/images/instructor-3.png"
+                      src="../assets/images/instructor-3.png"
                       alt="John Smith"
                     />
                   </figure>
@@ -394,7 +451,7 @@
             </ul>
 
             <img
-              src="./assets/images/instructor-vactor-2.svg"
+              src="../assets/images/instructor-vactor-2.svg"
               alt="Vector line art"
               class="vector-line"
             />
@@ -412,7 +469,7 @@
                 <span>Create Free Account & Get Register</span>
 
                 <img
-                  src="./assets/images/cta-vector.svg"
+                  src="../assets/images/cta-vector.svg"
                   alt="Vector arrow art"
                   class="vector-line"
                 />
@@ -583,7 +640,7 @@
     <!-- 
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+    <script src="../assets/js/script.js"></script>
 
     <!-- 
     - ionicon link
