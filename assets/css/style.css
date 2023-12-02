@@ -221,7 +221,7 @@ body { background: var(--white); }
   width: 100%;
   max-width: 250px;
   height: 100%;
-  background: var(--mantis);
+  background: white;
   padding: 80px 20px;
   transition: 0.15s ease-in;
   z-index: 3;
@@ -272,6 +272,13 @@ body { background: var(--white); }
   opacity: 1;
 }
 
+.logo{
+  font-weight: 600;
+  font-size: 30px;
+  font-family: var(--ff-rubik);
+  color: var(--orange-web);
+  text-shadow: 5px 10px 30px hsla(39, 100%, 50%, 0.3);
+}
 
 
 
